@@ -10,6 +10,7 @@ const Dropdown = ({selected, setSelected}) => {
     <div className="dropdown">
       <div className="dropdown-btn" onClick={(e) => 
         setisActive(!isActive)}> 
+        {selected}
       Choose Your Favorit 
       <FontAwesomeIcon icon={faCaretDown} />
       {/* <span class="fas fa-caret-down"></span> */}
